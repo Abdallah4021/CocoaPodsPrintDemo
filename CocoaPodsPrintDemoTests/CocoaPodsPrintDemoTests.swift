@@ -10,9 +10,12 @@ import XCTest
 @testable import CocoaPodsPrintDemo
 
 class CocoaPodsPrintDemoTests: XCTestCase {
+    var myLib: MyLiprary!
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        myLib = MyLiprary()
+
     }
 
     override func tearDown() {
@@ -29,6 +32,11 @@ class CocoaPodsPrintDemoTests: XCTestCase {
         self.measure {
             // Put the code you want to measure the time of here.
         }
+    }
+    
+
+    func testPrint() {
+        XCTAssertEqual(myLib.demoPrint(text: "hi"),"hi")
     }
 
 }

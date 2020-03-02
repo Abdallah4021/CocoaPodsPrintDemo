@@ -14,8 +14,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        
-        MyLiprary.demoPrint(text: "hi")
+        let dw=MyLiprary()
+        dw.demoPrint(text: "hi")
     }
 
 

@@ -10,7 +10,9 @@ import Foundation
 public final class MyLiprary{
     let name = "MyLiprary"
     
-      public static func demoPrint(text:String){
+    public init() {}
+    public func demoPrint(text:String)->String{
         print(text)
+        return text
     }
 }
