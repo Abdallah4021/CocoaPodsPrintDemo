@@ -10,6 +10,13 @@
 		B2A59C98240D4C75008D7281 /* CocoaPodsPrintDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2A59C8E240D4C75008D7281 /* CocoaPodsPrintDemo.framework */; };
 		B2A59C9D240D4C75008D7281 /* CocoaPodsPrintDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A59C9C240D4C75008D7281 /* CocoaPodsPrintDemoTests.swift */; };
 		B2A59C9F240D4C75008D7281 /* CocoaPodsPrintDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = B2A59C91240D4C75008D7281 /* CocoaPodsPrintDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2A59CAF240D503A008D7281 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A59CAE240D503A008D7281 /* AppDelegate.swift */; };
+		B2A59CB1240D503A008D7281 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A59CB0240D503A008D7281 /* SceneDelegate.swift */; };
+		B2A59CB3240D503A008D7281 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A59CB2240D503A008D7281 /* ViewController.swift */; };
+		B2A59CB6240D503A008D7281 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2A59CB4240D503A008D7281 /* Main.storyboard */; };
+		B2A59CB8240D503B008D7281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2A59CB7240D503B008D7281 /* Assets.xcassets */; };
+		B2A59CBB240D503B008D7281 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2A59CB9240D503B008D7281 /* LaunchScreen.storyboard */; };
+		B2A59CC1240D50B8008D7281 /* MyLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A59CC0240D50B8008D7281 /* MyLibrary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +36,15 @@
 		B2A59C97240D4C75008D7281 /* CocoaPodsPrintDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaPodsPrintDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2A59C9C240D4C75008D7281 /* CocoaPodsPrintDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaPodsPrintDemoTests.swift; sourceTree = "<group>"; };
 		B2A59C9E240D4C75008D7281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2A59CAC240D503A008D7281 /* CocoPodsPrintDemoExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoPodsPrintDemoExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2A59CAE240D503A008D7281 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2A59CB0240D503A008D7281 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B2A59CB2240D503A008D7281 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B2A59CB5240D503A008D7281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2A59CB7240D503B008D7281 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2A59CBA240D503B008D7281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B2A59CBC240D503B008D7281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2A59CC0240D50B8008D7281 /* MyLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLibrary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +63,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B2A59CA9240D503A008D7281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +78,7 @@
 			children = (
 				B2A59C90240D4C75008D7281 /* CocoaPodsPrintDemo */,
 				B2A59C9B240D4C75008D7281 /* CocoaPodsPrintDemoTests */,
+				B2A59CAD240D503A008D7281 /* CocoPodsPrintDemoExample */,
 				B2A59C8F240D4C75008D7281 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +88,7 @@
 			children = (
 				B2A59C8E240D4C75008D7281 /* CocoaPodsPrintDemo.framework */,
 				B2A59C97240D4C75008D7281 /* CocoaPodsPrintDemoTests.xctest */,
+				B2A59CAC240D503A008D7281 /* CocoPodsPrintDemoExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +98,7 @@
 			children = (
 				B2A59C91240D4C75008D7281 /* CocoaPodsPrintDemo.h */,
 				B2A59C92240D4C75008D7281 /* Info.plist */,
+				B2A59CC0240D50B8008D7281 /* MyLibrary.swift */,
 			);
 			path = CocoaPodsPrintDemo;
 			sourceTree = "<group>";
@@ -84,6 +110,20 @@
 				B2A59C9E240D4C75008D7281 /* Info.plist */,
 			);
 			path = CocoaPodsPrintDemoTests;
+			sourceTree = "<group>";
+		};
+		B2A59CAD240D503A008D7281 /* CocoPodsPrintDemoExample */ = {
+			isa = PBXGroup;
+			children = (
+				B2A59CAE240D503A008D7281 /* AppDelegate.swift */,
+				B2A59CB0240D503A008D7281 /* SceneDelegate.swift */,
+				B2A59CB2240D503A008D7281 /* ViewController.swift */,
+				B2A59CB4240D503A008D7281 /* Main.storyboard */,
+				B2A59CB7240D503B008D7281 /* Assets.xcassets */,
+				B2A59CB9240D503B008D7281 /* LaunchScreen.storyboard */,
+				B2A59CBC240D503B008D7281 /* Info.plist */,
+			);
+			path = CocoPodsPrintDemoExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +176,23 @@
 			productReference = B2A59C97240D4C75008D7281 /* CocoaPodsPrintDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		B2A59CAB240D503A008D7281 /* CocoPodsPrintDemoExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2A59CBD240D503B008D7281 /* Build configuration list for PBXNativeTarget "CocoPodsPrintDemoExample" */;
+			buildPhases = (
+				B2A59CA8240D503A008D7281 /* Sources */,
+				B2A59CA9240D503A008D7281 /* Frameworks */,
+				B2A59CAA240D503A008D7281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoPodsPrintDemoExample;
+			productName = CocoPodsPrintDemoExample;
+			productReference = B2A59CAC240D503A008D7281 /* CocoPodsPrintDemoExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -148,8 +205,12 @@
 				TargetAttributes = {
 					B2A59C8D240D4C75008D7281 = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 					};
 					B2A59C96240D4C75008D7281 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					B2A59CAB240D503A008D7281 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
@@ -169,6 +230,7 @@
 			targets = (
 				B2A59C8D240D4C75008D7281 /* CocoaPodsPrintDemo */,
 				B2A59C96240D4C75008D7281 /* CocoaPodsPrintDemoTests */,
+				B2A59CAB240D503A008D7281 /* CocoPodsPrintDemoExample */,
 			);
 		};
 /* End PBXProject section */
@@ -188,6 +250,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B2A59CAA240D503A008D7281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2A59CBB240D503B008D7281 /* LaunchScreen.storyboard in Resources */,
+				B2A59CB8240D503B008D7281 /* Assets.xcassets in Resources */,
+				B2A59CB6240D503A008D7281 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -195,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2A59CC1240D50B8008D7281 /* MyLibrary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +276,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2A59C9D240D4C75008D7281 /* CocoaPodsPrintDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2A59CA8240D503A008D7281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2A59CB3240D503A008D7281 /* ViewController.swift in Sources */,
+				B2A59CAF240D503A008D7281 /* AppDelegate.swift in Sources */,
+				B2A59CB1240D503A008D7281 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +298,25 @@
 			targetProxy = B2A59C99240D4C75008D7281 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2A59CB4240D503A008D7281 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2A59CB5240D503A008D7281 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B2A59CB9240D503B008D7281 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2A59CBA240D503B008D7281 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B2A59CA0240D4C75008D7281 /* Debug */ = {
@@ -340,6 +442,7 @@
 		B2A59CA3240D4C75008D7281 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -355,6 +458,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gamiphy.abdallah.CocoaPodsPrintDemo;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,6 +467,7 @@
 		B2A59CA4240D4C75008D7281 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -386,6 +491,7 @@
 		B2A59CA6240D4C75008D7281 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CocoaPodsPrintDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -403,6 +509,7 @@
 		B2A59CA7240D4C75008D7281 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CocoaPodsPrintDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -411,6 +518,40 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gamiphy.abdallah.CocoaPodsPrintDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B2A59CBE240D503B008D7281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CocoPodsPrintDemoExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamiphy.abdallah.CocoPodsPrintDemoExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2A59CBF240D503B008D7281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CocoPodsPrintDemoExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamiphy.abdallah.CocoPodsPrintDemoExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -443,6 +584,15 @@
 			buildConfigurations = (
 				B2A59CA6240D4C75008D7281 /* Debug */,
 				B2A59CA7240D4C75008D7281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2A59CBD240D503B008D7281 /* Build configuration list for PBXNativeTarget "CocoPodsPrintDemoExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2A59CBE240D503B008D7281 /* Debug */,
+				B2A59CBF240D503B008D7281 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
