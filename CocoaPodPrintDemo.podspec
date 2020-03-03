@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name                      = "CocoaPodPrintDemo"
-    s.version                   = "0.0.1"
+    s.version                   = "v0.0.1"
     s.summary                   = "CocoaPodPrintDemo"
     s.description               = "CocoaPodPrintDemo, is the loyality program that provide gamified user journey, with rewarding system, where users can get points by doing certine actions. and they can be rewarded for doing these actions."
     s.homepage                  = "https://github.com/Abdallah4021/CocoaPodsPrintDemo"
